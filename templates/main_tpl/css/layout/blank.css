@@ -1,0 +1,14 @@
+. {0}
+body {
+	text-align:center;	
+}
+.wrapper {
+	margin:auto;
+	text-align:left;
+	width:1000px;
+	min-height:250px;
+}
+.content{
+	width:100%;
+	min-height:250px;
+}

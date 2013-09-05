@@ -1,0 +1,43 @@
+.head-line-bar ul{
+	list-style: none;
+}
+.head-line-bar ul li{	
+	float: left;
+	margin:10px;
+	padding:5px;
+	border:1px solid;
+}
+.head-line-bar ul a{
+	color:white;
+	text-decoration: none;
+}
+
+#logo{
+	color:white;
+	font-size:30px;
+	font-weight: bold;
+	float: left;
+}
+#account_pannel{
+	float: right;
+	font-size:20px;
+	color:white;
+}
+#account_pannel ul{
+	list-style:none;
+	margin:0;
+}
+#account_pannel ul li{
+	float: left;
+	margin-left:20px;
+}
+#log_out{
+	color:white;
+}
+
+.button-edit{
+	float: right;
+}
+.ui-dialog-titlebar{
+	display: none;
+}

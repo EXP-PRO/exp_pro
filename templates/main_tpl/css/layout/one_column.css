@@ -1,0 +1,38 @@
+. {0}
+body {
+	text-align:center;	
+}
+.wrapper {
+	margin:auto;
+	text-align:left;
+	width:1000px;
+	min-height:250px;
+}
+.header{
+	width:100%;
+	height:50px;
+	background-color:#0066FF;
+}
+.content{
+	width:100%;
+	min-height:250px;
+}
+.content-left{
+	width:75%;
+	float:left;
+}
+.content-left .head-line-bar{
+	background-color:#999999;
+	width:100%;
+	float:left;
+}
+.content .column{	
+	width:100%;
+	float:left;	
+	background-color:#099;
+}
+.content .side-bar{
+	background-color:#FF0;
+	width:25%;
+	float:left;
+}
