@@ -108,5 +108,5 @@ $(function(){
 </script>
 
 <div id="form-basic-info">
-aaa
+	form basic info
 </div>
