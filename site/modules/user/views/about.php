@@ -108,9 +108,6 @@
 			</td>
 		</tr>
 		<tr>
-			<td colspan="2"><hr /></td>
-		</tr>
-		<tr>
 			<td>Ngày sinh:</td>
 			<td><input type="text" id="dt_birthday" readonly="readonly" /></td>
 		</tr>
