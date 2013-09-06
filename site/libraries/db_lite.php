@@ -8,8 +8,9 @@ class DB_lite {
 	}
 	
 	public function get($name){
-		$a =  json_decode($this->db);
-		//var_dump($a);exit;
+		$obj = json_decode($this->db);
+		if(isset($obj->$name)) return $obj->$name;
+		return null;
 	}
 }
 ?>

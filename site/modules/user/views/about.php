@@ -88,24 +88,19 @@
 	<table class="form-dialog">
 		<tr>
 			<td>Họ:</td>
-			<td><input type="text" value="" name="" /></td>
+			<td><input type="text" value="<?php echo $user->lb_last_name?>" name="" /></td>
 		</tr>
 		<tr>
 			<td>Tên lót:</td>
-			<td><input type="text" value="" name="" /></td>
+			<td><input type="text" value="<?php echo $user->lb_middle_name?>" name="" /></td>
 		</tr>
 		<tr>
 			<td>Tên:</td>
-			<td><input type="text" value="" name="" /></td>
+			<td><input type="text" value="<?php echo $user->lb_first_name?>" name="" /></td>
 		</tr>
 		<tr>
 			<td>Hiển thị với tên:</td>
-			<td>
-				<select>
-					<option value="">A B C</option>
-					<option value="">C B A</option>
-				</select>
-			</td>
+			<td><input type="text" value="<?php echo $user->lb_display_name?>" name="" /></td>
 		</tr>
 		<tr>
 			<td>Ngày sinh:</td>
@@ -115,8 +110,22 @@
 			<td>Giới tính:</td>
 			<td>
 				<select>
-					<option value="male">Nam</option>
-					<option value="female">Nữ</option>
+					<option value="male"><?php echo lang('male')?></option>
+					<option value="female"><?php echo lang('female')?></option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Hiện trạng mối quan hệ:</td>
+			<td>
+				<select>
+					<?php
+					foreach($relationship_status as $item):
+					?>
+					<option value="<?php $item?>"><?php echo lang($item)?></option>
+					<?php
+					endforeach;
+					?>
 				</select>
 			</td>
 		</tr>
@@ -173,7 +182,9 @@ $(function(){
 		changeMonth: true,
 		changeYear: true,
 		yearRange: "-100:+0",
-		dateFormat: "dd-mm-yy"
+		dateFormat: "dd/mm/yy",
+		
 	});
+	$("#dt_birthday").datepicker("setDate", <?php echo '"'.date('d/m/Y',strtotime($user->dt_birthday)).'"'?> );
 });
 </script>
