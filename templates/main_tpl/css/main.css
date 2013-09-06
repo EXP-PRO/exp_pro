@@ -41,3 +41,16 @@
 .ui-dialog-titlebar{
 	display: none;
 }
+.form-dialog{
+	font-size:14px;
+}
+.ui-widget{
+	font-size:14px;
+}
+
+.token-input-list-facebook{
+	width:245px !important;
+}
+.token-input-dropdown-facebook{
+	width:245px !important;
+}

@@ -81,6 +81,73 @@
 	</table>
 </center>
 
+<div id="form-basic-info">
+	<?php
+	echo form_open('user/edit_basic_info');
+	?>
+	<table class="form-dialog">
+		<tr>
+			<td>Họ:</td>
+			<td><input type="text" value="" name="" /></td>
+		</tr>
+		<tr>
+			<td>Tên lót:</td>
+			<td><input type="text" value="" name="" /></td>
+		</tr>
+		<tr>
+			<td>Tên:</td>
+			<td><input type="text" value="" name="" /></td>
+		</tr>
+		<tr>
+			<td>Hiển thị với tên:</td>
+			<td>
+				<select>
+					<option value="">A B C</option>
+					<option value="">C B A</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2"><hr /></td>
+		</tr>
+		<tr>
+			<td>Ngày sinh:</td>
+			<td><input type="text" id="dt_birthday" readonly="readonly" /></td>
+		</tr>
+		<tr>
+			<td>Giới tính:</td>
+			<td>
+				<select>
+					<option value="male">Nam</option>
+					<option value="female">Nữ</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Ngôn ngữ:</td>
+			<td>
+				<div>
+				<?php
+				$data = array(
+					'key' => 'id_language',
+					'value' => 'lb_language',
+					'data' => $language,
+					'options' => array(
+						'id' => 'lb_language',
+						'name' => 'lb_language',
+					),
+				);
+				echo token_input($data);
+				?>
+				</div>
+			</td>
+		</tr>
+	</table>
+	<?php
+	echo form_close();
+	?>
+</div>
+
 <script type="text/javascript">
 $(function(){
 	var id_form_basic_info = "#form-basic-info";
@@ -88,8 +155,8 @@ $(function(){
 
 	$(id_form_basic_info).dialog({
 		autoOpen: false,
-		height: 350,
-		width: 350,
+		height: 500,
+		width: 400,
 		modal:false,
 		resizable: false,
 		buttons:{
@@ -104,9 +171,12 @@ $(function(){
 	$(id_edit_basic_info).button().click(function(){
 		$(id_form_basic_info).dialog("open");
 	});
+	
+	$("#dt_birthday").datepicker({
+		changeMonth: true,
+		changeYear: true,
+		yearRange: "-100:+0",
+		dateFormat: "dd-mm-yy"
+	});
 });
 </script>
-
-<div id="form-basic-info">
-	form basic info
-</div>

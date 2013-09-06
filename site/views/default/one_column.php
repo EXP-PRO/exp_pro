@@ -8,10 +8,16 @@
 		<script type="text/javascript" src="<?php echo base_url()?>assets/js/jquery-1.10.2.min.js"></script>
 		<script type="text/javascript" src="<?php echo base_url()?>assets/js/jquery-ui.js"></script>
 		<script type="text/javascript" src="<?php echo base_url()?>templates/main_tpl/js/main.js"></script>
+		
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/jquery-ui.min.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/jquery.ui.dialog.min.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>templates/main_tpl/css/layout/one_column.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>templates/main_tpl/css/main.css" />
+		
+		<!-- TOKEN INPUT -->
+		<script type="text/javascript" src="<?php echo base_url()?>assets/widgets/tokeninput/js/jquery.tokeninput.js"></script>
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/widgets/tokeninput/css/token-input-facebook.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/widgets/tokeninput/css/token-input.css" />
 	</head>
 	<body>
 		<div class="wrapper">
