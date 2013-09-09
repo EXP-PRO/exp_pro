@@ -7140,20 +7140,20 @@
 				<treenode node="zipdata;PHP:Var Name;C:\wamp\www\exp_pro\system\libraries\Zip.php;f5;34;13;34;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="DB_lite;PHP:Class Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f0;1;1;14;;;;vpos;;v;;r;;d14,1;;b0,0;;m">
-				<treenode node="DB_lite;PHP:Function Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f1;5;2;7;;;;vpos;;v;;r;;d19,5;;b0,0;;m">
-					<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f2;6;7;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="DB_lite;PHP:Class Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f0;1;1;14;;C:\wamp\www\exp_pro\site\libraries\db_lite.php;f0;1;1;14;;;;vpos;;v;;r;;d14,1;;b0,0;;m">
+				<treenode node="DB_lite;PHP:Function Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f1;5;2;7;;C:\wamp\www\exp_pro\site\libraries\db_lite.php;f1;5;2;7;;;;vpos;;v;;r;;d19,5;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f2;6;7;6;;C:\wamp\www\exp_pro\site\libraries\db_lite.php;f2;6;7;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="get;PHP:Function Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f8;9;2;13;;;;vpos;;v;;r;;d27,9;;b1,0;;mname;;p">
-					<treenode node="name;PHP:Var Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f21;9;26;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="get;PHP:Function Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f8;9;2;13;;C:\wamp\www\exp_pro\site\libraries\db_lite.php;f8;9;2;13;;;;vpos;;v;;r;;d27,9;;b1,0;;mname;;p">
+					<treenode node="name;PHP:Var Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f21;9;26;9;;C:\wamp\www\exp_pro\site\libraries\db_lite.php;f21;9;26;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="obj;PHP:Var Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f2;10;6;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="obj;PHP:Var Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f2;10;6;10;;C:\wamp\www\exp_pro\site\libraries\db_lite.php;f2;10;6;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f21;10;26;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f21;10;26;10;;C:\wamp\www\exp_pro\site\libraries\db_lite.php;f21;10;26;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="db;PHP:Var Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f9;3;12;3;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="db;PHP:Var Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f9;3;12;3;;C:\wamp\www\exp_pro\site\libraries\db_lite.php;f9;3;12;3;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
 				</treenode>
 			</treenode>
 			<treenode node="Info_bar;PHP:Class Name;C:\wamp\www\exp_pro\site\modules\info_bar\controllers\info_bar.php;f0;1;1;15;;;;vpos;;vMX_Controller;;c;;r;;d37,1;;b0,0;;m">
@@ -8511,19 +8511,19 @@
 			<treenode node="token_input;PHP:Function Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f1;4;2;33;;C:\wamp\www\exp_pro\site\helpers\widget_helper.php;f1;4;2;35;;;;vpos;;v;;r;;d30,4;;b0,0;;mconfig;;p">
 				<treenode node="config;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f22;4;29;4;;C:\wamp\www\exp_pro\site\helpers\widget_helper.php;f22;4;29;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="data;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f2;7;7;7;;C:\wamp\www\exp_pro\site\helpers\widget_helper.php;f2;7;7;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="data;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f2;7;7;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="item;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f19;13;24;13;;C:\wamp\www\exp_pro\site\helpers\widget_helper.php;f19;13;24;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="item;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f19;13;24;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="json;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f2;12;7;12;;C:\wamp\www\exp_pro\site\helpers\widget_helper.php;f2;12;7;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="json;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f2;12;7;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="key;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f2;5;6;5;;C:\wamp\www\exp_pro\site\helpers\widget_helper.php;f2;5;6;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="key;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f2;5;6;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="options;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f39;8;47;8;;C:\wamp\www\exp_pro\site\helpers\widget_helper.php;f39;8;47;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="options;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f39;8;47;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="str;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f2;18;6;18;;C:\wamp\www\exp_pro\site\helpers\widget_helper.php;f2;18;6;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="str;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f2;18;6;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="value;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f2;6;8;6;;C:\wamp\www\exp_pro\site\helpers\widget_helper.php;f2;6;8;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="value;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f2;6;8;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
 			<treenode node="trim_slashes;PHP:Function Name;C:\wamp\www\exp_pro\system\helpers\string_helper.php;f1;46;2;49;;;;vpos;;vstring;;r Trim Slashes;;d1,47;;b0,0;;mstr;;p">
@@ -8666,7 +8666,7 @@
 			</treenode>
 			<treenode node="item;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\user\views\about.php;f37;122;42;122;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="lang;PHP:Var Name;C:\wamp\www\exp_pro\system\language\english\upload_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\unit_test_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\profiler_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\number_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\migration_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\imglib_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\ftp_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\form_validation_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\email_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\db_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\date_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\calendar_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\upload_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\unit_test_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\profiler_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\number_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\migration_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\imglib_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\ftp_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\form_validation_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\email_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\db_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\date_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\calendar_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\vi_lang.php;f0;1;5;1;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="lang;PHP:Var Name;C:\wamp\www\exp_pro\system\language\english\upload_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\unit_test_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\profiler_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\number_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\migration_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\imglib_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\ftp_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\form_validation_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\email_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\db_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\date_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\system\language\english\calendar_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\vi_lang.php;f0;1;5;1;;C:\wamp\www\exp_pro\site\language\vietnamese\upload_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\unit_test_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\profiler_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\number_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\migration_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\imglib_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\ftp_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\form_validation_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\email_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\db_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\date_lang.php;f0;2;5;2;;C:\wamp\www\exp_pro\site\language\vietnamese\calendar_lang.php;f0;2;5;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="LANG;PHP:Var Name;C:\wamp\www\exp_pro\system\core\CodeIgniter.php;f1;219;6;219;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -8710,9 +8710,9 @@
 			</treenode>
 			<treenode node="template;PHP:Var Name;C:\wamp\www\exp_pro\site\config\template.php;f0;11;9;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\main\views\one_col.php;f8;10;13;10;;C:\wamp\www\exp_pro\site\modules\main\views\two_col.php;f8;13;13;13;;C:\wamp\www\exp_pro\site\modules\login\views\login.php;f5;2;10;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\main\views\one_col.php;f8;10;13;10;;C:\wamp\www\exp_pro\site\modules\main\views\two_col.php;f8;13;13;13;;C:\wamp\www\exp_pro\site\modules\login\views\login.php;f5;2;10;2;;C:\wamp\www\exp_pro\site\modules\user\views\about.php;f0;157;5;157;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="title;PHP:Var Name;C:\wamp\www\exp_pro\site\views\default\Codelobster0.php;f14;5;20;5;;C:\wamp\www\exp_pro\site\views\default\two_column.php;f14;5;20;5;;C:\wamp\www\exp_pro\site\views\default\three_column.php;f14;5;20;5;;C:\wamp\www\exp_pro\site\views\default\one_column.php;f14;5;20;5;;C:\wamp\www\exp_pro\site\views\default\blank.php;f14;5;20;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="title;PHP:Var Name;C:\wamp\www\exp_pro\site\views\default\Codelobster0.php;f14;5;20;5;;C:\wamp\www\exp_pro\site\views\default\two_column.php;f14;5;20;5;;C:\wamp\www\exp_pro\site\views\default\three_column.php;f14;5;20;5;;C:\wamp\www\exp_pro\site\views\default\blank.php;f14;5;20;5;;C:\wamp\www\exp_pro\site\views\default\one_column.php;f14;5;20;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="u;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\user\views\about.php;f26;35;28;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -14954,9 +14954,11 @@
 			</treenode>
 			<treenode node="ID;JS:JS Var Name;C:\wamp\www\exp_pro\assets\js\Codelobster0.js;f8777;3;8779;3;;C:\wamp\www\exp_pro\assets\js\jquery-1.10.2.min.js;f8777;3;8779;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="id_edit_basic_info;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\about.php;f5;159;23;159;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="id_dp_birthday;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f5;4;19;4;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="id_form_basic_info;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\about.php;f5;158;23;158;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="id_edit_basic_info;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f5;3;23;3;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="id_form_basic_info;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f5;2;23;2;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="image;JS:JS Var Name;C:\wamp\www\exp_pro\assets\js\Codelobster0.js;f21023;3;21028;3;;C:\wamp\www\exp_pro\assets\js\jquery-1.10.2.min.js;f21023;3;21028;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -15528,9 +15530,10 @@
 		<file name="C:\wamp\www\exp_pro\site\third_party\MX\Ci.php" crc="-369033659"/>
 		<file name="C:\wamp\www\exp_pro\site\third_party\MX\Base.php" crc="77626162"/>
 		<file name="C:\wamp\www\exp_pro\site\third_party\index.html" crc="-387993932"/>
+		<file name="C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php" crc="1138122380"/>
 		<file name="C:\wamp\www\exp_pro\site\modules\user\views\home.php" crc="-684257128"/>
 		<file name="C:\wamp\www\exp_pro\site\modules\user\views\head_line_bar.php" crc="1795950322"/>
-		<file name="C:\wamp\www\exp_pro\site\modules\user\views\about.php" crc="418544532"/>
+		<file name="C:\wamp\www\exp_pro\site\modules\user\views\about.php" crc="617427321"/>
 		<file name="C:\wamp\www\exp_pro\site\modules\user\controllers\user.php" crc="-1717978649"/>
 		<file name="C:\wamp\www\exp_pro\site\modules\user\config\routes.php" crc="1703863746"/>
 		<file name="C:\wamp\www\exp_pro\site\modules\login\views\login.php" crc="26687575"/>
