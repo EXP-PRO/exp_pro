@@ -7514,14 +7514,28 @@
 			</treenode>
 			<treenode node="User;PHP:Class Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f0;1;1;50;;;;vpos;;vMX_Controller;;c;;r;;d33,1;;b0,0;;m">
 				<treenode node="about;PHP:Function Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f8;28;2;39;;;;vpos;;v;;r;;d24,28;;b1,0;;m">
+					<treenode node="data;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f2;29;7;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f18;29;23;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="home;PHP:Function Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f8;20;2;26;;;;vpos;;v;;r;;d23,20;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f2;21;7;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="Index;PHP:Function Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f8;16;2;18;;;;vpos;;v;;r;;d24,16;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f2;17;7;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="update_basic_info;PHP:Function Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f8;41;2;48;;;;vpos;;v;;r;;d36,41;;b1,0;;m">
+					<treenode node="_POST;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f12;43;18;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f5;42;10;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="User;PHP:Function Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f1;5;2;14;;;;vpos;;v;;r;;d16,5;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f2;11;7;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="user;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f9;3;14;3;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
 				</treenode>
@@ -8151,7 +8165,7 @@
 				</treenode>
 			</treenode>
 			<treenode node="get_user_login;PHP:Function Name;C:\wamp\www\exp_pro\site\helpers\user_helper.php;f1;13;2;18;;;;vpos;;v;;r;;d26,13;;b0,0;;m">
-				<treenode node="_SESSION;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f11;14;20;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="_SESSION;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f11;14;20;14;;C:\wamp\www\exp_pro\site\helpers\user_helper.php;f11;14;20;14;;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f11;14;20;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
 			<treenode node="gmt_to_local;PHP:Function Name;C:\wamp\www\exp_pro\system\helpers\date_helper.php;f1;328;2;343;;;;vpos;;vinteger;;r Converts GMT time to a localized value;;d1,329;;b0,0;;mtime;;ptimezone;;pdst;;p">
@@ -8233,7 +8247,7 @@
 				</treenode>
 			</treenode>
 			<treenode node="is_user_login;PHP:Function Name;C:\wamp\www\exp_pro\site\helpers\user_helper.php;f1;4;2;9;;;;vpos;;v;;r;;d25,4;;b0,0;;m">
-				<treenode node="_SESSION;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f11;5;20;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="_SESSION;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\user_helper.php;f11;5;20;5;;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f11;5;20;5;;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f11;5;20;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
 			<treenode node="js_insert_smiley;PHP:Function Name;C:\wamp\www\exp_pro\system\helpers\smiley_helper.php;f1;265;2;275;;;;vpos;;vstring;;r JS Insert Smiley;;d1,266;;b0,0;;mform_name;;pform_field;;p">
@@ -8268,6 +8282,12 @@
 				<treenode node="directory;PHP:Var Name;C:\wamp\www\exp_pro\system\core\Common.php;f30;122;40;122;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 				<treenode node="prefix;PHP:Var Name;C:\wamp\www\exp_pro\system\core\Common.php;f56;122;63;122;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="load_model;PHP:Function Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f1;4;2;12;;C:\wamp\www\exp_pro\site\helpers\load_helper.php;f1;4;2;12;;;;vpos;;v;;r;;d28,4;;b0,0;;mmodel;;p">
+				<treenode node="model;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f21;4;27;4;;C:\wamp\www\exp_pro\site\helpers\load_helper.php;f21;4;27;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="model_path;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f2;5;13;5;;C:\wamp\www\exp_pro\site\helpers\load_helper.php;f2;5;13;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
 			<treenode node="local_to_gmt;PHP:Function Name;C:\wamp\www\exp_pro\system\helpers\date_helper.php;f1;302;2;308;;;;vpos;;vinteger;;r Converts a local Unix timestamp to GMT;;d1,303;;b0,0;;mtime;;p">
@@ -8546,22 +8566,22 @@
 				<treenode node="tz;PHP:Var Name;C:\wamp\www\exp_pro\system\helpers\date_helper.php;f20;548;23;548;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="token_input;PHP:Function Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f1;4;2;33;;C:\wamp\www\exp_pro\site\helpers\widget_helper.php;f1;4;2;35;;;;vpos;;v;;r;;d30,4;;b0,0;;mconfig;;p">
+			<treenode node="token_input;PHP:Function Name;C:\wamp\www\exp_pro\site\helpers\widget_helper.php;f1;4;2;35;;;;vpos;;v;;r;;d30,4;;b0,0;;mconfig;;p">
 				<treenode node="config;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f22;4;29;4;;C:\wamp\www\exp_pro\site\helpers\widget_helper.php;f22;4;29;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="data;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f2;7;7;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="data;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f2;7;7;7;;C:\wamp\www\exp_pro\site\helpers\widget_helper.php;f2;7;7;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="item;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f19;13;24;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="item;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f19;13;24;13;;C:\wamp\www\exp_pro\site\helpers\widget_helper.php;f19;13;24;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="json;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f2;12;7;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="json;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f2;12;7;12;;C:\wamp\www\exp_pro\site\helpers\widget_helper.php;f2;12;7;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="key;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f2;5;6;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="key;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f2;5;6;5;;C:\wamp\www\exp_pro\site\helpers\widget_helper.php;f2;5;6;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="options;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f39;8;47;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="options;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f39;8;47;8;;C:\wamp\www\exp_pro\site\helpers\widget_helper.php;f39;8;47;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="str;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f2;18;6;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="str;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f2;18;6;18;;C:\wamp\www\exp_pro\site\helpers\widget_helper.php;f2;18;6;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="value;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f2;6;8;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="value;PHP:Var Name;C:\wamp\www\exp_pro\site\helpers\Codelobster0.php;f2;6;8;6;;C:\wamp\www\exp_pro\site\helpers\widget_helper.php;f2;6;8;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
 			<treenode node="trim_slashes;PHP:Function Name;C:\wamp\www\exp_pro\system\helpers\string_helper.php;f1;46;2;49;;;;vpos;;vstring;;r Trim Slashes;;d1,47;;b0,0;;mstr;;p">
@@ -15620,7 +15640,7 @@
 		<file name="C:\wamp\www\exp_pro\site\modules\user\views\home.php" crc="-684257128"/>
 		<file name="C:\wamp\www\exp_pro\site\modules\user\views\head_line_bar.php" crc="1795950322"/>
 		<file name="C:\wamp\www\exp_pro\site\modules\user\views\about.php" crc="-801236225"/>
-		<file name="C:\wamp\www\exp_pro\site\modules\user\models\user_model.php" crc="492004048"/>
+		<file name="C:\wamp\www\exp_pro\site\modules\user\models\user_model.php" crc="952049474"/>
 		<file name="C:\wamp\www\exp_pro\site\modules\user\controllers\user.php" crc="-454290038"/>
 		<file name="C:\wamp\www\exp_pro\site\modules\user\config\routes.php" crc="1703863746"/>
 		<file name="C:\wamp\www\exp_pro\site\modules\login\views\login.php" crc="26687575"/>
@@ -15659,6 +15679,7 @@
 		<file name="C:\wamp\www\exp_pro\site\hooks\index.html" crc="-387993932"/>
 		<file name="C:\wamp\www\exp_pro\site\helpers\widget_helper.php" crc="1135460326"/>
 		<file name="C:\wamp\www\exp_pro\site\helpers\user_helper.php" crc="-130126196"/>
+		<file name="C:\wamp\www\exp_pro\site\helpers\load_helper.php" crc="1119669190"/>
 		<file name="C:\wamp\www\exp_pro\site\helpers\index.html" crc="-387993932"/>
 		<file name="C:\wamp\www\exp_pro\site\errors\index.html" crc="-387993932"/>
 		<file name="C:\wamp\www\exp_pro\site\errors\error_php.php" crc="754218002"/>
@@ -15683,7 +15704,7 @@
 		<file name="C:\wamp\www\exp_pro\site\config\database.php" crc="-1719450434"/>
 		<file name="C:\wamp\www\exp_pro\site\config\constants.php" crc="-246966409"/>
 		<file name="C:\wamp\www\exp_pro\site\config\config.php" crc="39316773"/>
-		<file name="C:\wamp\www\exp_pro\site\config\autoload.php" crc="-998721415"/>
+		<file name="C:\wamp\www\exp_pro\site\config\autoload.php" crc="-442934419"/>
 		<file name="C:\wamp\www\exp_pro\site\cache\index.html" crc="-387993932"/>
 		<file name="C:\wamp\www\exp_pro\site\cache\.htaccess" crc="1792548129"/>
 		<file name="C:\wamp\www\exp_pro\site\index.html" crc="-387993932"/>

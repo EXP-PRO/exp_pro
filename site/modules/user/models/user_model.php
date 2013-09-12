@@ -1,5 +1,5 @@
 <?php
-require_once APPPATH.'/models/base_user_model.php';
+load_model('Base_user_model');
 class User_model extends Base_user_model {
 	
 	function User_model() {
