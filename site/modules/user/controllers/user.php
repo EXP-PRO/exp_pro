@@ -39,8 +39,13 @@ class User extends MX_Controller {
 		$this->template->render();
 	}
 	
-	public function edit_basic_info(){
-		
+	public function update_basic_info(){
+		if($this->input->is_ajax_request()){
+			var_dump($_POST);
+		}
+		else{
+			show_404();
+		}
 	}
 	
 }

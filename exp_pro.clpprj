@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\wamp\www\exp_pro\exp_pro.clpprj">
-	<settings><PM_URL><![CDATA[http://localhost/exp_pro/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/exp_pro/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><codestructure version="4.3">
+	<settings><PM_URL><![CDATA[http://localhost/exp_pro/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/exp_pro/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";C:\wamp\www\exp_pro\site\modules\user\models\abc_model.php;"/><added value=""/><codestructure version="4.3">
 		<phptree>
 			<treenode node="APPPATH;PHP:PHP Word;C:\wamp\www\exp_pro\index.php;f10;181;17;181;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -43,6 +43,50 @@
 			<treenode node="SELF;PHP:PHP Word;C:\wamp\www\exp_pro\index.php;f9;162;13;162;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="SYSDIR;PHP:PHP Word;C:\wamp\www\exp_pro\index.php;f9;175;15;175;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="Abc_model;PHP:Class Name;C:\wamp\www\exp_pro\site\modules\user\models\Codelobster0.php;f0;1;1;5;;;;vpos;;vCI_Model;;c;;r;;d33,1;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\wamp\www\exp_pro\site\modules\user\models\Codelobster0.php;f1;2;2;4;;;;vpos;;v;;r;;d24,2;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="Base_user_model;PHP:Class Name;C:\wamp\www\exp_pro\site\models\user_model.php;f0;1;1;36;;;;vpos;;vCI_Model;;c;;r;;d39,1;;b0,0;;m">
+				<treenode node="Base_user_model;PHP:Function Name;C:\wamp\www\exp_pro\site\models\user_model.php;f1;3;2;5;;;;vpos;;v;;r;;d27,3;;b0,0;;m">
+				</treenode>
+				<treenode node="get_user_email;PHP:Function Name;C:\wamp\www\exp_pro\site\models\user_model.php;f8;20;2;24;;;;vpos;;v;;r;;d41,20;;b1,0;;mid_user;;p">
+					<treenode node="id_user;PHP:Var Name;C:\wamp\www\exp_pro\site\models\user_model.php;f32;20;40;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="query;PHP:Var Name;C:\wamp\www\exp_pro\site\models\user_model.php;f2;22;8;22;;;;vposCI_DB_result;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\models\user_model.php;f2;21;7;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="get_user_info;PHP:Function Name;C:\wamp\www\exp_pro\site\models\user_model.php;f8;14;2;18;;;;vpos;;v;;r;;d40,14;;b1,0;;mid_user;;p">
+					<treenode node="id_user;PHP:Var Name;C:\wamp\www\exp_pro\site\models\user_model.php;f31;14;39;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="query;PHP:Var Name;C:\wamp\www\exp_pro\site\models\user_model.php;f2;16;8;16;;;;vposCI_DB_result;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\models\user_model.php;f2;15;7;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="get_user_info_small;PHP:Function Name;C:\wamp\www\exp_pro\site\models\user_model.php;f8;7;2;12;;;;vpos;;v;;r;;d46,7;;b1,0;;mid_user;;p">
+					<treenode node="id_user;PHP:Var Name;C:\wamp\www\exp_pro\site\models\user_model.php;f37;7;45;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="query;PHP:Var Name;C:\wamp\www\exp_pro\site\models\user_model.php;f2;10;8;10;;;;vposCI_DB_result;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\models\user_model.php;f2;8;7;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="get_user_phone;PHP:Function Name;C:\wamp\www\exp_pro\site\models\user_model.php;f8;26;2;30;;;;vpos;;v;;r;;d41,26;;b1,0;;mid_user;;p">
+					<treenode node="id_user;PHP:Var Name;C:\wamp\www\exp_pro\site\models\user_model.php;f32;26;40;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="query;PHP:Var Name;C:\wamp\www\exp_pro\site\models\user_model.php;f2;28;8;28;;;;vposCI_DB_result;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\models\user_model.php;f2;27;7;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="update_basic_info;PHP:Function Name;C:\wamp\www\exp_pro\site\models\user_model.php;f8;32;2;34;;;;vpos;;v;;r;;d44,32;;b1,0;;mid_user;;p">
+					<treenode node="id_user;PHP:Var Name;C:\wamp\www\exp_pro\site\models\user_model.php;f35;32;43;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
 			</treenode>
 			<treenode node="Chat_bar;PHP:Class Name;C:\wamp\www\exp_pro\site\modules\chat_bar\controllers\chat_bar.php;f0;1;1;10;;;;vpos;;vMX_Controller;;c;;r;;d37,1;;b0,0;;m">
 				<treenode node="__construct;PHP:Function Name;C:\wamp\www\exp_pro\site\modules\chat_bar\controllers\chat_bar.php;f1;3;2;5;;;;vpos;;v;;r;;d24,3;;b0,0;;m">
@@ -7142,15 +7186,15 @@
 			</treenode>
 			<treenode node="DB_lite;PHP:Class Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f0;1;1;14;;C:\wamp\www\exp_pro\site\libraries\db_lite.php;f0;1;1;14;;;;vpos;;v;;r;;d14,1;;b0,0;;m">
 				<treenode node="DB_lite;PHP:Function Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f1;5;2;7;;C:\wamp\www\exp_pro\site\libraries\db_lite.php;f1;5;2;7;;;;vpos;;v;;r;;d19,5;;b0,0;;m">
-					<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f2;6;7;6;;C:\wamp\www\exp_pro\site\libraries\db_lite.php;f2;6;7;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f2;6;7;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="get;PHP:Function Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f8;9;2;13;;C:\wamp\www\exp_pro\site\libraries\db_lite.php;f8;9;2;13;;;;vpos;;v;;r;;d27,9;;b1,0;;mname;;p">
 					<treenode node="name;PHP:Var Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f21;9;26;9;;C:\wamp\www\exp_pro\site\libraries\db_lite.php;f21;9;26;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="obj;PHP:Var Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f2;10;6;10;;C:\wamp\www\exp_pro\site\libraries\db_lite.php;f2;10;6;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="obj;PHP:Var Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f2;10;6;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f21;10;26;10;;C:\wamp\www\exp_pro\site\libraries\db_lite.php;f21;10;26;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f21;10;26;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="db;PHP:Var Name;C:\wamp\www\exp_pro\site\libraries\Codelobster0.php;f9;3;12;3;;C:\wamp\www\exp_pro\site\libraries\db_lite.php;f9;3;12;3;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
@@ -7468,48 +7512,42 @@
 					</treenode>
 				</treenode>
 			</treenode>
-			<treenode node="User;PHP:Class Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f0;1;1;45;;;;vpos;;vMX_Controller;;c;;r;;d33,1;;b0,0;;m">
+			<treenode node="User;PHP:Class Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f0;1;1;50;;;;vpos;;vMX_Controller;;c;;r;;d33,1;;b0,0;;m">
 				<treenode node="about;PHP:Function Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f8;28;2;39;;;;vpos;;v;;r;;d24,28;;b1,0;;m">
-					<treenode node="data;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f2;29;7;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f18;29;23;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="edit_basic_info;PHP:Function Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f8;41;2;43;;;;vpos;;v;;r;;d34,41;;b1,0;;m">
 				</treenode>
 				<treenode node="home;PHP:Function Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f8;20;2;26;;;;vpos;;v;;r;;d23,20;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f2;21;7;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
 				</treenode>
 				<treenode node="Index;PHP:Function Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f8;16;2;18;;;;vpos;;v;;r;;d24,16;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f2;17;7;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
+				</treenode>
+				<treenode node="update_basic_info;PHP:Function Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f8;41;2;48;;;;vpos;;v;;r;;d36,41;;b1,0;;m">
 				</treenode>
 				<treenode node="User;PHP:Function Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f1;5;2;14;;;;vpos;;v;;r;;d16,5;;b0,0;;m">
-					<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f2;11;7;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
 				</treenode>
 				<treenode node="user;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\user\controllers\user.php;f9;3;14;3;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="User_model;PHP:Class Name;C:\wamp\www\exp_pro\site\models\user_model.php;f0;1;1;32;;;;vpos;;vCI_Model;;c;;r;;d34,1;;b0,0;;m">
-				<treenode node="get_user_email;PHP:Function Name;C:\wamp\www\exp_pro\site\models\user_model.php;f8;20;2;24;;;;vpos;;v;;r;;d41,20;;b1,0;;mid_user;;p">
-					<treenode node="id_user;PHP:Var Name;C:\wamp\www\exp_pro\site\models\user_model.php;f32;20;40;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="User_model;PHP:Class Name;C:\wamp\www\exp_pro\site\models\base_user_model.php;f0;1;1;36;;C:\wamp\www\exp_pro\site\modules\user\models\user_model.php;f0;2;1;7;;;;vpos;;vBase_user_model;;c;;r;;d41,2;;b0,0;;m">
+				<treenode node="get_user_email;PHP:Function Name;C:\wamp\www\exp_pro\site\models\base_user_model.php;f8;20;2;24;;;;vpos;;v;;r;;d41,20;;b1,0;;mid_user;;p">
+					<treenode node="id_user;PHP:Var Name;C:\wamp\www\exp_pro\site\models\base_user_model.php;f32;20;40;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="get_user_info;PHP:Function Name;C:\wamp\www\exp_pro\site\models\user_model.php;f8;14;2;18;;;;vpos;;v;;r;;d40,14;;b1,0;;mid_user;;p">
-					<treenode node="id_user;PHP:Var Name;C:\wamp\www\exp_pro\site\models\user_model.php;f31;14;39;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="get_user_info;PHP:Function Name;C:\wamp\www\exp_pro\site\models\base_user_model.php;f8;14;2;18;;;;vpos;;v;;r;;d40,14;;b1,0;;mid_user;;p">
+					<treenode node="id_user;PHP:Var Name;C:\wamp\www\exp_pro\site\models\base_user_model.php;f31;14;39;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="get_user_info_small;PHP:Function Name;C:\wamp\www\exp_pro\site\models\user_model.php;f8;7;2;12;;;;vpos;;v;;r;;d46,7;;b1,0;;mid_user;;p">
-					<treenode node="id_user;PHP:Var Name;C:\wamp\www\exp_pro\site\models\user_model.php;f37;7;45;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="get_user_info_small;PHP:Function Name;C:\wamp\www\exp_pro\site\models\base_user_model.php;f8;7;2;12;;;;vpos;;v;;r;;d46,7;;b1,0;;mid_user;;p">
+					<treenode node="id_user;PHP:Var Name;C:\wamp\www\exp_pro\site\models\base_user_model.php;f37;7;45;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="get_user_phone;PHP:Function Name;C:\wamp\www\exp_pro\site\models\user_model.php;f8;26;2;30;;;;vpos;;v;;r;;d41,26;;b1,0;;mid_user;;p">
-					<treenode node="id_user;PHP:Var Name;C:\wamp\www\exp_pro\site\models\user_model.php;f32;26;40;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="get_user_phone;PHP:Function Name;C:\wamp\www\exp_pro\site\models\base_user_model.php;f8;26;2;30;;;;vpos;;v;;r;;d41,26;;b1,0;;mid_user;;p">
+					<treenode node="id_user;PHP:Var Name;C:\wamp\www\exp_pro\site\models\base_user_model.php;f32;26;40;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="User_model;PHP:Function Name;C:\wamp\www\exp_pro\site\models\user_model.php;f1;3;2;5;;;;vpos;;v;;r;;d22,3;;b0,0;;m">
+				<treenode node="update_basic_info;PHP:Function Name;C:\wamp\www\exp_pro\site\models\base_user_model.php;f8;32;2;34;;;;vpos;;v;;r;;d44,32;;b1,0;;mid_user;;p">
+					<treenode node="id_user;PHP:Var Name;C:\wamp\www\exp_pro\site\models\base_user_model.php;f35;32;43;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="User_model;PHP:Function Name;C:\wamp\www\exp_pro\site\models\base_user_model.php;f1;3;2;5;;C:\wamp\www\exp_pro\site\modules\user\models\Codelobster0.php;f1;3;2;5;;C:\wamp\www\exp_pro\site\modules\user\models\user_model.php;f1;4;2;6;;C:\wamp\www\exp_pro\site\modules\user\models\user_model.php;f1;4;2;6;;;;vpos;;v;;r;;d23,4;;b0,0;;m">
 				</treenode>
 			</treenode>
 			<treenode node="XML_RPC_Client;PHP:Class Name;C:\wamp\www\exp_pro\system\libraries\Xmlrpc.php;f0;352;1;420;;;;vpos;;vCI_Xmlrpc;;c;;r;;d0,353;;b0,0;;m">
@@ -8710,9 +8748,9 @@
 			</treenode>
 			<treenode node="template;PHP:Var Name;C:\wamp\www\exp_pro\site\config\template.php;f0;11;9;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\main\views\one_col.php;f8;10;13;10;;C:\wamp\www\exp_pro\site\modules\main\views\two_col.php;f8;13;13;13;;C:\wamp\www\exp_pro\site\modules\login\views\login.php;f5;2;10;2;;C:\wamp\www\exp_pro\site\modules\user\views\about.php;f0;157;5;157;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="this;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\main\views\one_col.php;f8;10;13;10;;C:\wamp\www\exp_pro\site\modules\main\views\two_col.php;f8;13;13;13;;C:\wamp\www\exp_pro\site\modules\user\views\about.php;f0;157;5;157;;C:\wamp\www\exp_pro\site\modules\login\views\login.php;f5;2;10;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="title;PHP:Var Name;C:\wamp\www\exp_pro\site\views\default\Codelobster0.php;f14;5;20;5;;C:\wamp\www\exp_pro\site\views\default\two_column.php;f14;5;20;5;;C:\wamp\www\exp_pro\site\views\default\three_column.php;f14;5;20;5;;C:\wamp\www\exp_pro\site\views\default\blank.php;f14;5;20;5;;C:\wamp\www\exp_pro\site\views\default\one_column.php;f14;5;20;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="title;PHP:Var Name;C:\wamp\www\exp_pro\site\views\default\Codelobster0.php;f14;5;20;5;;C:\wamp\www\exp_pro\site\views\default\two_column.php;f14;5;20;5;;C:\wamp\www\exp_pro\site\views\default\three_column.php;f14;5;20;5;;C:\wamp\www\exp_pro\site\views\default\one_column.php;f14;5;20;5;;C:\wamp\www\exp_pro\site\views\default\blank.php;f14;5;20;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="u;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\user\views\about.php;f26;35;28;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -8720,7 +8758,7 @@
 			</treenode>
 			<treenode node="URI;PHP:Var Name;C:\wamp\www\exp_pro\system\core\CodeIgniter.php;f1;164;5;164;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="user;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\info_bar\views\info_bar.php;f17;3;22;3;;C:\wamp\www\exp_pro\site\modules\user\views\about.php;f18;9;23;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="user;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\user\views\about.php;f18;9;23;9;;C:\wamp\www\exp_pro\site\modules\info_bar\views\info_bar.php;f17;3;22;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="user_email;PHP:Var Name;C:\wamp\www\exp_pro\site\modules\user\views\about.php;f11;45;22;45;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -12928,6 +12966,46 @@
 				<treenode node="x;JS:JS Var Name;C:\wamp\www\exp_pro\assets\js\jquery-1.10.2.min.js;f6959;5;6960;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
+			<treenode node="update_basic_info;JS:Function Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f0;43;1;62;;;;vpos;;v;;r;;d28,43;;b0,0;;m">
+				<treenode node="data;JS:Function Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f2;55;3;57;;;;vpos;;v;;r;;d8,55;;b0,0;;m">
+					<treenode node="data;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f3;56;7;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pack;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f9;56;13;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="pack;JS:Function Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f5;44;2;49;;;;vpos;;v;;r;;d12,44;;b0,0;;m">
+					<treenode node="id_lb_display_name;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f22;48;40;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="id_lb_first_name;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f20;47;36;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="id_lb_last_name;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f19;45;34;45;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="id_lb_middle_name;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f21;46;38;46;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="lb_display_name;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f2;48;17;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="lb_first_name;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f2;47;15;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="lb_last_name;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f2;45;14;45;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="lb_middle_name;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f2;46;16;46;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="success;JS:Function Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f2;58;3;60;;;;vpos;;v;;r;;d25,58;;b0,0;;mdata;;p">
+					<treenode node="data;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f20;58;24;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="data;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f2;55;6;55;;;;vposdata;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="pack;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f5;44;9;44;;;;vpospack;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="str_url;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f5;50;12;50;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="type;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f2;54;6;54;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="url;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f2;53;5;53;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
 			<treenode node="addBack;JS:Function Name;F:\PROJECT\X project\source code\jquery-ui-1.10.3\ui\jquery-ui.js;f6;5521;2;5525;;;;vpos;;v;;r;;d37,221;;b0,0;;mselector;;p">
 				<treenode node="prevObject;JS:JS Var Name;F:\PROJECT\X project\source code\jquery-ui-1.10.3\ui\jquery-ui.js;f8;5523;18;5523;;C:\wamp\www\exp_pro\assets\js\jquery-ui.js;f8;223;18;223;;C:\wamp\www\exp_pro\assets\js\jquery-ui.js;f8;5523;18;5523;;C:\wamp\www\exp_pro\assets\js\jquery-ui.js;f8;223;18;223;;C:\wamp\www\exp_pro\assets\js\jquery-ui.js;f8;5523;18;5523;;C:\wamp\www\exp_pro\assets\js\jquery-ui.js;f8;223;18;223;;C:\wamp\www\exp_pro\assets\js\jquery-ui.js;f8;5523;18;5523;;C:\wamp\www\exp_pro\assets\js\jquery-ui.js;f8;223;18;223;;C:\wamp\www\exp_pro\assets\js\jquery-ui.js;f8;5523;18;5523;;;;vposaddBack;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
@@ -14954,11 +15032,19 @@
 			</treenode>
 			<treenode node="ID;JS:JS Var Name;C:\wamp\www\exp_pro\assets\js\Codelobster0.js;f8777;3;8779;3;;C:\wamp\www\exp_pro\assets\js\jquery-1.10.2.min.js;f8777;3;8779;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="id_dp_birthday;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f5;4;19;4;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="id_dp_birthday;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f4;4;18;4;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="id_edit_basic_info;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f5;3;23;3;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="id_edit_basic_info;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f4;3;22;3;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="id_form_basic_info;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f5;2;23;2;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="id_form_basic_info;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f4;2;22;2;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="id_lb_display_name;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f4;9;22;9;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="id_lb_first_name;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f4;8;20;8;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="id_lb_last_name;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f4;6;19;6;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="id_lb_middle_name;JS:JS Var Name;C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php;f4;7;21;7;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="image;JS:JS Var Name;C:\wamp\www\exp_pro\assets\js\Codelobster0.js;f21023;3;21028;3;;C:\wamp\www\exp_pro\assets\js\jquery-1.10.2.min.js;f21023;3;21028;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -15367,7 +15453,7 @@
 			<treenode node="Zt;JS:JS Var Name;C:\wamp\www\exp_pro\assets\js\Codelobster0.js;f1339;5;1341;5;;C:\wamp\www\exp_pro\assets\js\jquery-1.10.2.min.js;f1339;5;1341;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 		</jstree>
-		<file name="C:\wamp\www\exp_pro\exp_pro.clpprj" crc="-1318987618"/>
+		<file name="C:\wamp\www\exp_pro\exp_pro.clpprj" crc="1083671806"/>
 		<file name="C:\wamp\www\exp_pro\templates\main_tpl\js\main.js" crc="0"/>
 		<file name="C:\wamp\www\exp_pro\system\libraries\javascript\Jquery.php" crc="-325479532"/>
 		<file name="C:\wamp\www\exp_pro\system\libraries\Cache\drivers\Cache_memcached.php" crc="-1388836106"/>
@@ -15530,11 +15616,12 @@
 		<file name="C:\wamp\www\exp_pro\site\third_party\MX\Ci.php" crc="-369033659"/>
 		<file name="C:\wamp\www\exp_pro\site\third_party\MX\Base.php" crc="77626162"/>
 		<file name="C:\wamp\www\exp_pro\site\third_party\index.html" crc="-387993932"/>
-		<file name="C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php" crc="1138122380"/>
+		<file name="C:\wamp\www\exp_pro\site\modules\user\views\script\script_about.php" crc="-744712411"/>
 		<file name="C:\wamp\www\exp_pro\site\modules\user\views\home.php" crc="-684257128"/>
 		<file name="C:\wamp\www\exp_pro\site\modules\user\views\head_line_bar.php" crc="1795950322"/>
-		<file name="C:\wamp\www\exp_pro\site\modules\user\views\about.php" crc="617427321"/>
-		<file name="C:\wamp\www\exp_pro\site\modules\user\controllers\user.php" crc="-1717978649"/>
+		<file name="C:\wamp\www\exp_pro\site\modules\user\views\about.php" crc="-801236225"/>
+		<file name="C:\wamp\www\exp_pro\site\modules\user\models\user_model.php" crc="492004048"/>
+		<file name="C:\wamp\www\exp_pro\site\modules\user\controllers\user.php" crc="-454290038"/>
 		<file name="C:\wamp\www\exp_pro\site\modules\user\config\routes.php" crc="1703863746"/>
 		<file name="C:\wamp\www\exp_pro\site\modules\login\views\login.php" crc="26687575"/>
 		<file name="C:\wamp\www\exp_pro\site\modules\login\models\login_model.php" crc="-738361147"/>
@@ -15546,9 +15633,9 @@
 		<file name="C:\wamp\www\exp_pro\site\modules\chat_bar\views\chat_bar.php" crc="968529965"/>
 		<file name="C:\wamp\www\exp_pro\site\modules\chat_bar\controllers\chat_bar.php" crc="1171352923"/>
 		<file name="C:\wamp\www\exp_pro\site\modules\chat_bar\config\routes.php" crc="-831051596"/>
-		<file name="C:\wamp\www\exp_pro\site\models\user_model.php" crc="-671542375"/>
 		<file name="C:\wamp\www\exp_pro\site\models\language_model.php" crc="1695093361"/>
 		<file name="C:\wamp\www\exp_pro\site\models\index.html" crc="-387993932"/>
+		<file name="C:\wamp\www\exp_pro\site\models\base_user_model.php" crc="1693772251"/>
 		<file name="C:\wamp\www\exp_pro\site\logs\index.html" crc="-387993932"/>
 		<file name="C:\wamp\www\exp_pro\site\libraries\Template.php" crc="-1073852004"/>
 		<file name="C:\wamp\www\exp_pro\site\libraries\nsession.php" crc="1471458103"/>
@@ -15602,7 +15689,7 @@
 		<file name="C:\wamp\www\exp_pro\site\index.html" crc="-387993932"/>
 		<file name="C:\wamp\www\exp_pro\site\.htaccess" crc="0"/>
 		<file name="C:\wamp\www\exp_pro\db_lite\db_lite.js" crc="-1567402384"/>
-		<file name="C:\wamp\www\exp_pro\db\exp_pro.sql" crc="-1777657188"/>
+		<file name="C:\wamp\www\exp_pro\db\exp_pro.sql" crc="-499247107"/>
 		<file name="C:\wamp\www\exp_pro\assets\widgets\tokeninput\js\jquery.tokeninput.js" crc="-310492652"/>
 		<file name="C:\wamp\www\exp_pro\assets\js\jquery-ui.js" crc="-992160758"/>
 		<file name="C:\wamp\www\exp_pro\assets\js\jquery-1.10.2.min.js" crc="-1317189426"/>

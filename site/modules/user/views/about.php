@@ -88,19 +88,19 @@
 	<table class="form-dialog">
 		<tr>
 			<td>Họ:</td>
-			<td><input type="text" value="<?php echo $user->lb_last_name?>" name="" /></td>
+			<td><input type="text" value="<?php echo $user->lb_last_name?>" id="lb_last_name" name="" /></td>
 		</tr>
 		<tr>
 			<td>Tên lót:</td>
-			<td><input type="text" value="<?php echo $user->lb_middle_name?>" name="" /></td>
+			<td><input type="text" value="<?php echo $user->lb_middle_name?>" id="lb_middle_name" name="" /></td>
 		</tr>
 		<tr>
 			<td>Tên:</td>
-			<td><input type="text" value="<?php echo $user->lb_first_name?>" name="" /></td>
+			<td><input type="text" value="<?php echo $user->lb_first_name?>" id="lb_first_name" name="" /></td>
 		</tr>
 		<tr>
 			<td>Hiển thị với tên:</td>
-			<td><input type="text" value="<?php echo $user->lb_display_name?>" name="" /></td>
+			<td><input type="text" value="<?php echo $user->lb_display_name?>" id="lb_display_name" name="" /></td>
 		</tr>
 		<tr>
 			<td>Ngày sinh:</td>

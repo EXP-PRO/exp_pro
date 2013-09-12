@@ -1,7 +1,7 @@
 <?php
-class User_model extends CI_Model {
+class Base_user_model extends CI_Model {
 	
-	function User_model(){
+	function Base_user_model(){
 		parent::__construct();
 	}
 	
@@ -28,6 +28,10 @@ class User_model extends CI_Model {
 		$this->db->where('user_id',$id_user);
 		$query = $this->db->get('t_phone');
 		return $query->result();
+	}
+	
+	public function update_basic_info($id_user){
+		
 	}
 	
 }
