@@ -10,7 +10,7 @@ class User extends MX_Controller {
 			return;
 		}
 		$this->load->model('User_model','model');
-		$this->load->model('Language_model','language_model');
+		$this->load->model('Base_language_model','language_model');
 		$this->user = get_user_login();
 	}
 	
@@ -27,11 +27,13 @@ class User extends MX_Controller {
 	}
 	
 	public function about(){
-		$data['user'] = $this->model->get_user_info($this->user['id_user']);
-		$data['user_email'] = $this->model->get_user_email($this->user['id_user']);
-		$data['user_phone'] = $this->model->get_user_phone($this->user['id_user']);
-		$data['language'] = $this->language_model->get_language();
+		$id_user = $this->user['id_user'];
+		$data['user'] = $this->model->get_user($id_user);
+		$data['user_email'] = $this->model->get_user_email($id_user);
+		$data['user_phone'] = $this->model->get_user_phone($id_user);
 		$data['relationship_status'] = $this->db_lite->get('relationship_status');
+		$data['language'] = $this->language_model->get_all_language();
+		
 		$this->template->set_template('one_column');
 		$this->template->write('title','Thông tin');
 		$this->template->write_view('head_line_bar','head_line_bar');

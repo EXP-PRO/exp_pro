@@ -1,37 +1,34 @@
 <?php
 class Base_user_model extends CI_Model {
+
+	private $tbl_name = 't_user';
+	private $id_name = 'id_user';
+	private $id_rel_name = 'user_id';
 	
 	function Base_user_model(){
 		parent::__construct();
 	}
 	
-	public function get_user_info_small($id_user){
-		$this->db->select('lb_display_name');
-		$this->db->where('id_user',$id_user);
-		$query = $this->db->get('t_user');
+	public function get_user($id_user,$arr_select=null){
+		if(isset($arr_select)){
+			$str_select = implode(',',$arr_select);
+			$this->db->select($str_select);
+		}
+		$this->db->where($this->id_name,$id_user);
+		$query = $this->db->get($this->tbl_name);
 		return $query->row();
 	}
 	
-	public function get_user_info($id_user){
-		$this->db->where('id_user',$id_user);
-		$query = $this->db->get('t_user');
-		return $query->row();
-	}
-	
-	public function get_user_email($id_user){
-		$this->db->where('user_id',$id_user);
-		$query = $this->db->get('t_email');
+	protected function get_related_user($id_user,$related_table){
+		$this->db->where($this->id_rel_name,$id_user);
+		$query = $this->db->get($related_table);
 		return $query->result();
 	}
 	
-	public function get_user_phone($id_user){
-		$this->db->where('user_id',$id_user);
-		$query = $this->db->get('t_phone');
-		return $query->result();
-	}
-	
-	public function update_basic_info($id_user){
-		
+	public function update_user($id_user,$data){
+		$this->db->where($this->id_name,$id_user);
+		$query = $this->db->update($this->tbl_name,$data);
+		return $query;
 	}
 	
 }

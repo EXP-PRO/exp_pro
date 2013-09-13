@@ -10,7 +10,8 @@ class Info_bar extends MX_Controller {
 	}
 	
 	function index(){
-		$data['user'] = $this->model->get_user_info_small($this->user['id_user']);
+		$id_user = $this->user['id_user'];
+		$data['user'] = $this->model->get_user($id_user,array('lb_display_name'));
 		$this->load->view('info_bar',$data);
 	}
 }
