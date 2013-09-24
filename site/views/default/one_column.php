@@ -14,6 +14,9 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>templates/main_tpl/css/layout/one_column.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>templates/main_tpl/css/main.css" />
 		
+		<!-- DATETIME SELECT -->
+		<script type="text/javascript" src="<?php echo base_url()?>assets/widgets/datetimeselect/js/datetimeselect.js"></script>
+		
 		<!-- TOKEN INPUT -->
 		<script type="text/javascript" src="<?php echo base_url()?>assets/widgets/tokeninput/js/jquery.tokeninput.js"></script>
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/widgets/tokeninput/css/token-input-facebook.css" />

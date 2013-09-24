@@ -2,10 +2,10 @@
 if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 if(!function_exists('token_input')){
-	function token_input($config){
+	function token_input($config=array()){
 		$key = $config['key'];
 		$value = $config['value'];
-		$data = $config['data'];
+		$data = $config['data'];	
 		if(!isset($config['options']['id'])) $options['id'] = 'token_input';
 		$options['id'] = $config['options']['id'];
 		$options['name'] = $config['options']['name'];
@@ -35,4 +35,21 @@ if(!function_exists('token_input')){
 		return $str;
 	}
 }
+
+if(!function_exists('datetime_select')){
+	function datetime_select($config=array()){
+		$id = "datetime_select";
+		$str = 
+			'<div id="'.$id.'"></div>
+			<script type="text/javascript">
+				$(function(){
+					$("#'.$id.'").datetimeselect({
+						'.(isset($config['dateFormat'])?"dateFormat:".$config['dateFormat']:"").'
+					});
+				});
+			</script>';
+		return $str;
+	}
+}
+
 ?>

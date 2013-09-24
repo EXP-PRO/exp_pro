@@ -1,5 +1,4 @@
 {
-
 "relationship_status":
 [
 	"single",
@@ -11,8 +10,20 @@
 	"widowed",
 	"separated",
 	"divorced"
+],
+"month":
+[
+	"jan",
+	"jeb",
+	"mar",
+	"apr",
+	"may",
+	"jun",
+	"jul",
+	"aug",
+	"sep",
+	"oct",
+	"nov",
+	"dec"
 ]
-
-
-
 }

@@ -39,6 +39,12 @@ $(function(){
 	});
 	$(id_dp_birthday).datepicker("setDate", <?php echo '"'.date('d/m/Y',strtotime($user->dt_birthday)).'"'?> );
 	
+	$("#datetimeselect").datetimeselect({
+		dateFormat: "dd/mm/yy",
+		yearRange: "-100:+0",
+		monthDisplay: "<?php echo $month?>",
+	});
+	
 });
 
 function update_basic_info(){

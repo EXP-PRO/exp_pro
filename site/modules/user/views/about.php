@@ -104,7 +104,16 @@
 		</tr>
 		<tr>
 			<td>Ngày sinh:</td>
-			<td><input type="text" id="dt_birthday" readonly="readonly" /></td>
+			<td>
+				<input type="text" id="dt_birthday" readonly="readonly" />
+				<?php
+				$data = array(
+					//'date_format' => 'dd/mm/yy',
+				);
+				//echo datetime_select($data);
+				?>
+				<input id="datetimeselect" type="text" name="datetimeselect" value=""/>
+			</td>
 		</tr>
 		<tr>
 			<td>Giới tính:</td>

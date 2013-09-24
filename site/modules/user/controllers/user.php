@@ -32,6 +32,7 @@ class User extends MX_Controller {
 		$data['user_email'] = $this->model->get_user_email($id_user);
 		$data['user_phone'] = $this->model->get_user_phone($id_user);
 		$data['relationship_status'] = $this->db_lite->get('relationship_status');
+		$data['month'] = $this->db_lite->get_str_with_lang('month');
 		$data['language'] = $this->language_model->get_all_language();
 		
 		$this->template->set_template('one_column');
